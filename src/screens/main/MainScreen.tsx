@@ -31,9 +31,14 @@ const getTotal = (list: CartItem[]) => {
       ...acc,
       [item.type]: [...(acc[item.type] || []), item].sort((a, b) => b.price.base - a.price.base),
     }),
-    {},
+    {
+      bottle: [],
+      ice: [],
+      drink: [],
+    },
   );
-  console.log('reduced', JSON.stringify(reduced));
+
+  const packs = reduced;
   return 0;
 };
 
