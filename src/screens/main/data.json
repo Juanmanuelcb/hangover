@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bottle",
+    "name": "Bottle",
+    "price": {
+      "pack": 25,
+      "base": 50
+    },
+    "type": "bottle"
+  },
+  {
+    "id": "ice",
+    "name": "Ice",
+    "price": {
+      "pack": 2,
+      "base": 3
+    },
+    "type": "ice"
+  },
+  {
+    "id": "softDrink",
+    "name": "Soft Drink",
+    "price": {
+      "pack": 3,
+      "base": 4
+    },
+    "type": "drink"
+  },
+  {
+    "id": "redBull",
+    "name": "Red-bull",
+    "price": {
+      "pack": 8,
+      "base": 12
+    },
+    "type": "drink"
+  }
+]
