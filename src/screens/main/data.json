@@ -4,7 +4,7 @@
     "name": "Bottle",
     "price": {
       "pack": 25,
-      "base": 50
+      "base": 25
     },
     "type": "bottle"
   },
@@ -24,15 +24,15 @@
       "pack": 3,
       "base": 4
     },
-    "type": "drink"
+    "type": "mixer"
   },
   {
     "id": "redBull",
     "name": "Red-bull",
     "price": {
-      "pack": 8,
-      "base": 12
+      "pack": 2,
+      "base": 3
     },
-    "type": "drink"
+    "type": "mixer"
   }
 ]

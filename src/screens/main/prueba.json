@@ -1,9 +1,0 @@
-[
-  { "id": "bottle", "name": "Bottle", "price": { "base": 50, "pack": 25 }, "quantity": 4 },
-  { "id": "softDrink", "name": "Soft Drink", "price": { "base": 4, "pack": 3 }, "quantity": 4 },
-  { "id": "redBull", "name": "Red-bull", "price": { "base": 12, "pack": 8 }, "quantity": 2 },
-
-  { "id": "softDrink", "name": "Soft Drink", "price": { "base": 4, "pack": 3 }, "quantity": 4 },
-  { "id": "redBull", "name": "Red-bull", "price": { "base": 12, "pack": 8 }, "quantity": 2 },
-  { "id": "bottle", "name": "Bottle", "price": { "base": 50, "pack": 25 }, "quantity": 4 }
-]
