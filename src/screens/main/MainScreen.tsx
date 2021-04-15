@@ -84,7 +84,7 @@ const getTotal = (list: CartItem[]) => {
 
   const bottles = reduced[PACK_TYPE_BOTTLE];
   const totalDelivery =
-    (bottles ? bottles.quantity : Math.ceil((totalProducts / BASE_DELIVERY_PRICE) * 5)) * BASE_DELIVERY_PRICE;
+    (bottles ? bottles.quantity : Math.ceil(totalProducts / (BASE_DELIVERY_PRICE * 5))) * BASE_DELIVERY_PRICE;
 
   return {
     products: totalProducts,
