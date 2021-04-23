@@ -130,6 +130,7 @@ const MainScreen = () => {
   );
 
   const total = getTotal(products);
+  const sellingTotal = total.products + total.delivery;
 
   return (
     <View style={[styles.container, { paddingBottom: insets.bottom }]}>
@@ -167,7 +168,8 @@ const MainScreen = () => {
           <Card.Content>
             <Text>Products: {total.products}€</Text>
             <Text>Delivery: {total.delivery}€</Text>
-            <Text>Total: {total.products + total.delivery}€</Text>
+            <Text>Total: {sellingTotal}€</Text>
+            <Text>Selling Total: {Math.ceil(sellingTotal / 5) * 5}€</Text>
           </Card.Content>
         </Card>
       </View>
